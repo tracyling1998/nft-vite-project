@@ -1622,7 +1622,9 @@ textarea.w-select {
   position: relative;
   float: left;
   text-decoration: none;
-  color: #333333;
+  /*color: #333333;*/
+  font-size: x-large;
+  font-weight: 300;
 }
 .w-nav-link {
   position: relative;
@@ -1831,4 +1833,12 @@ textarea.w-select {
 }
 .wf-layout-cell {
   display: flex !important;
+}
+
+.moving-background {
+  background-image: url('../images/bg_up.gif');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 40% 40%;
 }
